@@ -45,9 +45,9 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"> </span></button>
           <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
-              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#service">Facilities </a></li>
-              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#destination">Destination</a></li>
-              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="#booking">Join a Trip</a></li>
+              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="index.html#service">Facilities </a></li>
+              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="index.html#destination">Destination</a></li>
+              <li class="nav-item px-3 px-xl-4"><a class="nav-link fw-medium" aria-current="page" href="index.html#booking">Join a Trip</a></li>
    
               <li class="nav-item px-3 px-xl-4"><a class="btn btn-outline-dark order-1 order-lg-0 fw-medium" href="#!" data-toggle="modal" data-target="#exampleModalCenter">Sign Up / Login</a></li>
               <li class="nav-item dropdown px-3 px-lg-0"> <a class="d-inline-block ps-0 py-2 pe-3 text-decoration-none dropdown-toggle fw-medium" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
@@ -81,78 +81,100 @@
 
 
 
-
 <div class="container">
-    <div class="row"><h1>best hotel</h1></div>
-    <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest1.jpg" alt="Rome, Italty" />
-            <div class="card-body py-4 px-3">
-              <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Rome, Italty</a></h4><span class="fs-1 fw-medium">$5,42k</span>
-              </div>
-              <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">10 Days Trip</span></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest2.jpg" alt="London, UK" />
-            <div class="card-body py-4 px-3">
-              <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">London, UK</a></h4><span class="fs-1 fw-medium">$4.2k</span>
-              </div>
-              <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">12 Days Trip</span></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest3.jpg" alt="Full Europe" />
-            <div class="card-body py-4 px-3">
-              <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Full Europe</a></h4><span class="fs-1 fw-medium">$15k</span>
-              </div>
-              <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">28 Days Trip</span></div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
+
+<div class="row">
+  <div class="col-2">
+    <div class="list-group" id="list-tab" role="tablist">
+      <a class="list-group-item list-group-item-action bg-dark border-0 active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">hotel</a>
+      <a class="list-group-item list-group-item-action bg-dark border-0" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Motels</a>
+      <a class="list-group-item list-group-item-action bg-dark border-0" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Homestays</a>
       
-    <div class="row"><h1>best Guesthouses</h1></div>
-    <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest1.jpg" alt="Rome, Italty" />
-            <div class="card-body py-4 px-3">
-              <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Rome, Italty</a></h4><span class="fs-1 fw-medium">$5,42k</span>
+    </div>
+  </div>
+  <div class="col-8">
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+        
+        
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/he.jpg" alt="Rome, Italty" />
+              <div class="card-body py-4 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                  <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Hotel Eden</a></h4><span class="fs-1 fw-medium"></span>
+                </div>
+                <div class="d-flex align-items-center"> <span class="fs-0 fw-medium">Located in the heart of Rome, near the Spanish Steps, Hotel Eden is a luxurious five-star hotel offering breathtaking views of the city. It features elegant rooms and suites, a rooftop terrace with panoramic views, a Michelin-starred restaurant, and a spa.</span></div>
               </div>
-              <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">10 Days Trip</span></div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/pa.jpg" alt="London, UK" />
+              <div class="card-body py-4 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                  <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Ritz Paris</a></h4><span class="fs-1 fw-medium"></span>
+                </div>
+                <div class="d-flex align-items-center"> <span class="fs-0 fw-medium"> Located in the heart of Paris, the Ritz Paris is a historic and iconic hotel that has been synonymous with luxury for over a century. The hotel offers elegantly designed rooms and suites, Michelin-starred dining options, a world-class spa, and impeccable service. It has welcomed numerous celebrities, politicians, and royalty over the years and is known for its opulence and attention to detail.</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/br.jpg" alt="Full Europe" />
+              <div class="card-body py-4 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                  <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Hotel Bristol</a></h4><span class="fs-1 fw-medium"></span>
+                </div>
+                <div class="d-flex align-items-center"> <span class="fs-0 fw-medium">a Luxury Collection Hotel, Warsaw: Located in the heart of Warsaw, Hotel Bristol is a historic and prestigious five-star hotel. It offers luxurious rooms and suites with elegant decor and modern amenities. The hotel combines timeless elegance with contemporary comfort. It features a renowned restaurant, a stylish bar, a fitness center, and a spa. Hotel Bristol is known for its impeccable service and its close proximity to many of Warsaw's attractions.</span></div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-4">
-          <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest2.jpg" alt="London, UK" />
-            <div class="card-body py-4 px-3">
-              <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">London, UK</a></h4><span class="fs-1 fw-medium">$4.2k</span>
+
+
+        
+        
+        
+        
+    </div>
+      <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/parii.jpg" alt="Rome, Italty" />
+              <div class="card-body py-4 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                  <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Paris Perfect</a></h4><span class="fs-1 fw-medium"></span>
+                </div>
+                <div class="d-flex align-items-center"><span class="fs-0 fw-medium">If you're specifically interested in apartment rentals in Paris, Paris Perfect is a well-regarded company that specializes in luxury vacation rentals in the city. They offer a curated selection of high-end apartments in prime locations.</span></div>
               </div>
-              <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">12 Days Trip</span></div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/vr.jpg" alt="London, UK" />
+              <div class="card-body py-4 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                  <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">HomeAway/Vrbo</a></h4><span class="fs-1 fw-medium"></span>
+                </div>
+                <div class="d-flex align-items-center"> <span class="fs-0 fw-medium">HomeAway and Vrbo are vacation rental platforms that offer a variety of apartment rentals in Poland. They provide options for travelers looking for self-catering accommodations with more space and privacy. Whether you're visiting Warsaw, Zakopane in the Tatra Mountains, or the Bal</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/bin.jpg" alt="Full Europe" />
+              <div class="card-body py-4 px-3">
+                <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
+                  <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Airbnb</a></h4><span class="fs-1 fw-medium"></span>
+                </div>
+                <div class="d-flex align-items-center"><span class="fs-0 fw-medium"> Airbnb is a global online marketplace that connects travelers with hosts who rent out their homes or apartments. It offers a wide range of options across various price points and locations in France, from cozy apartments to luxury villas.</span></div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-4">
-          <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest3.jpg" alt="Full Europe" />
-            <div class="card-body py-4 px-3">
-              <div class="d-flex flex-column flex-lg-row justify-content-between mb-3">
-                <h4 class="text-secondary fw-medium"><a class="link-900 text-decoration-none stretched-link" href="#!">Full Europe</a></h4><span class="fs-1 fw-medium">$15k</span>
-              </div>
-              <div class="d-flex align-items-center"> <img src="assets/img/dest/navigation.svg" style="margin-right: 14px" width="20" alt="navigation" /><span class="fs-0 fw-medium">28 Days Trip</span></div>
-            </div>
-          </div>
-        </div>
+   
       </div>
- 
-      <div class="row"><h1>best Motels</h1></div>
-      <div class="row">
+      <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+        <div class="row">
           <div class="col-md-4 mb-4">
             <div class="card overflow-hidden shadow"> <img class="card-img-top" src="assets/img/dest/dest1.jpg" alt="Rome, Italty" />
               <div class="card-body py-4 px-3">
@@ -184,8 +206,66 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
+
+
+</div>
+
+</main>
+
+
+
+<section class="pb-0 pb-lg-4"  style="background: #40404E;">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-7 col-12 mb-4 mb-md-6 mb-lg-0 order-0"> <img class="mb-4" src="assets/img/logo.png" width="150" alt="jadoo" />
+        <p class="fs--1 text-secondary mb-0 fw-medium">Book your trip in minute, get full Control for much longer.</p>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-1 order-md-2">
+        <h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Company</h4>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">About</a></li>
+          <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Careers</a></li>
+          <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Mobile</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-2 order-md-3">
+        <h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">Contact</h4>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-2"><a style="color: aliceblue;" class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Help/FAQ</a></li>
+          <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Press</a></li>
+          <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Affiliate</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-4 mb-4 mb-lg-0 order-lg-3 order-md-4">
+        <h4 class="footer-heading-color fw-bold font-sans-serif mb-3 mb-lg-4">More</h4>
+        <ul class="list-unstyled mb-0">
+          <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Airlinefees</a></li>
+          <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Airline</a></li>
+          <li class="mb-2"><a class="link-900 fs-1 fw-medium text-decoration-none" href="#!">Low fare tips</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-5 col-12 mb-4 mb-md-6 mb-lg-0 order-lg-4 order-md-1">
+        <div class="icon-group mb-4"> <a class="text-decoration-none icon-item shadow-social" id="facebook" href="#!"><i class="fab fa-facebook-f"> </i></a><a class="text-decoration-none icon-item shadow-social" id="instagram" href="#!"><i class="fab fa-instagram"> </i></a><a class="text-decoration-none icon-item shadow-social" id="twitter" href="#!"><i class="fab fa-twitter"> </i></a></div>
+        <h4 class="fw-medium font-sans-serif text-secondary mb-3">Discover our app</h4>
+        <div class="d-flex align-items-center"> <a href="#!"> <img class="me-2" src="assets/img/play-store.png" alt="play store" /></a><a href="#!"> <img src="assets/img/apple-store.png" alt="apple store" /></a></div>
+      </div>
+    </div>
+  </div><!-- end of .container-->
+
+</section>
+<!-- <section> close ============================-->
+<!-- ============================================-->
+
+
+<div class="py-1 text-center"  style="background: #40404E;">
+  <p class="mb-0 text-secondary fs--1 fw-medium">All rights reserved@Trim-me </p>
 </div>
 </main>
     <!-- ===============================================-->
