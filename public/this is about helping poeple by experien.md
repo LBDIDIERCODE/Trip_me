@@ -1,1 +1,0 @@
-il s'agit d'aider les gens en faisant l'expérience de quelque chose à ne jamais oublier, c'est pourquoi dans le manuel de notre étude d'enquête, nous poserons des questions sur l'hébergement afin que nous puissions créer une page d'hébergement basée sur cela
